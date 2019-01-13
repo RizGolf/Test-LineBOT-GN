@@ -17,12 +17,12 @@ import urllib3
 
 app = Flask(__name__)
 
-line_bot_api = LineBotApi('yQh1VyVtqSvQck/1blc8QQ7sSxdIPNI9+CYB78XF9dUP0Ho2lGJ02rtnlaqe6aFlUeyVCszB6P6dy3GM5VgoY39OWbwmPCcljSOBcBbke6lc5ePxoaWp9pIRiC5M/hC2w/m25KnZ4MRvEOliFccGhAdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('2ba452b79e30fcf854be2b49785a7bd5')
+line_bot_api = LineBotApi('Loscy5DKyMHfMjso60zbBEybOY3oBqn5MSFNVsnGt/l6LNW5llEaldDMkv/egE1tgz049M0k3KwdSObL3uwIzVVObwZvCBKEfufsEiKedWmiC+qXtrnGIkwEzdddQ/IUYyVpCHBY+AgjINXJFyLGGAdB04t89/1O/w1cDnyilFU=')
+handler = WebhookHandler('9c55e495d3111033d3414d2ece36e079')
 
-APPID="LineBotRpi"
-KEY = "bjuWQftBs1hMHSw"
-SECRET = "EUUdgsgDClUdqdzIDGnwjZ752"
+APPID="netpiePI"
+KEY = "X6hWOSOtIGzEVF7"
+SECRET = "qOFMkA67LI5LAvsVsIyKunIg5"
 Topic = "/LED_Control"
 
 url = 'https://api.netpie.io/topic/' + str(APPID) + str(Topic)
