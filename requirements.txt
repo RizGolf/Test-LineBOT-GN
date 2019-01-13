@@ -1,0 +1,5 @@
+Flask
+requests
+gunicorn
+line-bot-sdk
+urllib3
